@@ -1,0 +1,31 @@
+.aside_full_body {
+  margin: 20px 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.aside_header {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 27px;
+  font-weight: bolder;
+}
+
+.aside_items {
+  margin-top: 15px;
+}
+
+.aside_list_item {
+  cursor: pointer;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.aside_list_item:hover {
+  color: #ffb300 !important;
+}
+
+.no_of_items_in_aside_items {
+  color: #ffb300;
+}

@@ -1,0 +1,43 @@
+.pagination_full_body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page-link {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: transparent !important;
+  border: 0px !important;
+  color: rgb(89, 89, 89) !important;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50%; /* Make it a circle */
+}
+
+.page_pagination_item:hover {
+  background-color: rgb(216, 216, 216) !important;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50%; /* Make it a circle */
+}
+
+.active_page {
+  background-color: #ffb300 !important;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 50%; /* Make it a circle */
+}
+
+.footer_body {
+  background-color: #212121 !important;
+}
+
+.footer_text {
+  color: white !important;
+}
+
+.cpr_txt {
+  color: white !important;
+  font-size: x-small;
+}

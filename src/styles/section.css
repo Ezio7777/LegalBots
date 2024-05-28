@@ -1,0 +1,139 @@
+.section_full_body {
+  margin: 20px 10px 20px 0px;
+
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.section_header {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-size: 27px;
+  font-weight: bolder;
+}
+
+.section_1st_items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.advertise_btn {
+  width: 100% !important;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  padding: 10px 0px;
+}
+
+.grid_list_btn {
+  margin-right: 10px;
+  padding: 10px 40px;
+}
+.search_section {
+  display: flex;
+  align-items: center;
+}
+.search_section_go {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 0;
+
+  border-top: 1px solid rgba(0, 0, 0, 0.6);
+}
+.sndrow {
+  margin-bottom: 20px;
+}
+
+.dropdown_btns {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.dropdown-toggle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.dropdown-toggle::after {
+  margin-left: auto;
+  order: 1;
+}
+
+.dropdown-menu {
+  width: 100%;
+}
+.dropdown-item {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.date_header {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+span {
+  color: #ffb300;
+}
+
+.date_input_size {
+  width: 100%;
+}
+
+.filter_clear_box {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+  margin: 10px;
+}
+
+.grid_list_btn {
+  position: relative;
+  margin: 10px;
+}
+
+.tooltip {
+  display: block;
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 10;
+  font-size: 12px;
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.tooltip-container:hover .tooltip {
+  opacity: 1;
+}
+
+.active_list_grid {
+  color: black !important;
+  background: #d2d2d2;
+}

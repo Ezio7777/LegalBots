@@ -1,0 +1,61 @@
+.navbar_body {
+  background-color: #000 !important;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* Braand name */
+
+.navbar-brand {
+  width: 220px;
+  /* margin-top: 10px;
+    margin-bottom: 10px; */
+  margin-left: 10px;
+}
+
+/* Nav item */
+.item-color {
+  color: white !important;
+  letter-spacing: 1px;
+  font-weight: 500;
+  border-radius: 0px !important;
+  border-style: solid;
+  border-color: black !important;
+  border-width: 0px 0px 2px 0px !important ;
+}
+
+.nav_txt_hov:hover {
+  color: #ffb300 !important;
+  border-style: solid;
+  border-radius: 0px !important;
+  border-color: white !important;
+  border-width: 0px 0px 2px 0px !important ;
+}
+
+.active {
+  color: #ffb300 !important;
+  border-style: solid;
+  border-radius: 0px !important;
+  border-color: white !important;
+  border-width: 0px 0px 2px 0px !important ;
+}
+
+/* signin */
+
+#signin {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white !important;
+  margin: 0px 20px;
+}
+
+.signin_logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white !important;
+}
+
+.bg_black {
+  background-color: #000 !important;
+}
